@@ -12,10 +12,10 @@ export default function ProjectComponent(props){
         }}>
             <div className='flex'>
             <div className='mt-1 mr-1'><Image src={projectIcon} alt="Github Repository" width={20}  height={18} /></div>
-                <span className='ml-1 text-blue-500 hover:underline hover:cursor-pointer'>{props.projectTitle}</span>
+                <span className='ml-1 text-blue-500 hover:underline hover:cursor-pointer whitespace-nowrap'>{props.projectTitle}</span>
                 <span className='border-2 rounded-full px-2 border-zinc-300 text-zinc-700 ml-3'>Public</span>
             </div>
-            <p className='text-zinc-500 font-thin sm:font-normal sm:whitespace-nowrap'>{props.projectDescription}</p>
+            <p className='text-zinc-500 font-thin xl:font-normal sm:whitespace-nowrap'>{props.projectDescription}</p>
             <div className='flex max-h-5 mb-6 sm:mb-8'>
             <span className='mr-5'><span className="font-extrabold text-5xl text-yellow-200 my-0 py-0">.</span>JavaScript</span>
                 <div className='mt-7 sm:mt-7 mr-1'><Image src={stars} alt="Github Repository" width={18}  height={20}/></div>

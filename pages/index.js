@@ -9,7 +9,7 @@ import Resume from '../components/Resume'
 import ContactMeSection from '../components/ContactMeSection'
 import Copyright from '../components/Copyright'
 
-export default function Home({ championData }) {
+export default function Home() {
   return (
     <div className='bg-gray-900 py-0 h-20'> 
       <Head>
@@ -31,15 +31,6 @@ export default function Home({ championData }) {
   )
 }
 
-Home.getServerSideProps = async () => {
-
-  fetch('https://api.imgflip.com/get_memes')
-  .then(response => response.json())
-  .then(data => championData = data);
-
-  // Pass data to the page via props
-  return { props: { championData }}
-}
 
 
 // to-slate-800 bg-gradient-to-br 

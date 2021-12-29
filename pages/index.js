@@ -31,7 +31,7 @@ export default function Home({ championData }) {
   )
 }
 
-export default async function getServerSideProps() {
+Home.getServerSideProps = async () => {
 
   fetch('https://api.imgflip.com/get_memes')
   .then(response => response.json())

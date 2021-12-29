@@ -9,7 +9,8 @@ export default function Header(){
     const [logoClasses,setLogoClasses] = useState("whitespace-nowrap text-3xl lg:text-3xl 2xl:text-5xl font-semibold z-50 text-slate-200 mx-auto lg:ml-10 hover:cursor-pointer w-fit lg:mr-0"); 
 
     useEffect(() => {
-        document.getElementById('Logo').addEventListener('click', () => location.reload(true))
+        document.getElementById('Logo').addEventListener('click', () => {location.reload(true)
+        window.scroll(0,0)})
         window.onscroll = () => {
             if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
               setClasses("flex flex-wrap justify-between z-50 fixed bg-white pt-2 shadow-xl w-screen pb-7")

@@ -63,7 +63,7 @@ const handleSubmit = async () => {
             <p className="text-xl my-3 font-bold text-gray-900"><span className="text-zinc-400 text-medium font-thin">*</span> Message: <span className="text-sm font-thin text-zinc-400">(4 characters at least)</span></p>
             <textarea name="message" value={formInputs.message} onChange={(e) => handleChange(e)} cols={50} rows={4} className=" resize-none border-2 rounded-lg border-gray-900 h-32"  required />
 
-            {dataError ? <p className="text-sm font-thin animate__animated animate__flash text-red-900 whitespace-nowrap"> Please check the information you entered before sending. </p> : null}
+            {dataError ? <p className="text-sm font-thin animate__animated animate__flash text-red-900"> Please check the information you entered before sending. </p> : null}
         
             <input type="submit" name="submit" className="bg-gray-900 w-fit mt-5 px-6 py-3 rounded-2xl font-bold text-xl font-mono text-white hover:bg-yellow-500 hover:scale-110 hover:cursor-pointer mx-auto my-10" />
     </form>

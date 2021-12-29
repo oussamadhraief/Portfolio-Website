@@ -17,7 +17,7 @@ export default function SkillsSection(){
     const tailwind = "tailwind_k1zaze.png"
 
     return ( 
-        <div id="SkillsPart" className='h-72 flex flex-wrap space-x-3 sm:space-x-5 py-5 justify-center'>
+        <div id="SkillsPart" className='h-72 flex flex-wrap space-x-3 sm:space-x-5 py-1 justify-center'>
             <WebSkill srcPath={html} altText="HTML Icon" hoverText="HTML" />
             <WebSkill srcPath={css} altText="CSS Icon" hoverText="CSS" />
             <WebSkill srcPath={js} altText="Javascript Icon" hoverText="JavaScript" />

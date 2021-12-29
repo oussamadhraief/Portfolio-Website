@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function ProjectComponent(props){
 
     const github = "gitthing_sxmnto.png"
-    const stars = "projectIcon_a5zrgp.png"
+    const stars = "star_r8dmt2.png"
     const projectIcon = "projectIcon_a5zrgp.png"
 
     return(

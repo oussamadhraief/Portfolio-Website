@@ -1,5 +1,4 @@
 import Image from "next/image"
-import coding from '../assets/coding.gif'
 
 export default function SideImage(){
 

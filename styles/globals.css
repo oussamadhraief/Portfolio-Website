@@ -30,6 +30,6 @@ a {
   font-family: "Deez-Fonts";
 }
 
-#ProjectsPart::-webkit-scrollbar {
+#ProjectsPart::-webkit-scrollbar, #EducationPart::-webkit-scrollbar,  #ExperiencePart::-webkit-scrollbar, #SkillsPart::-webkit-scrollbar {
   height: 288px;
 }

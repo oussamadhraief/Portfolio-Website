@@ -29,3 +29,7 @@ a {
 #Logo {
   font-family: "Deez-Fonts";
 }
+
+#ProjectsPart::-webkit-scrollbar {
+  height: 288px;
+}

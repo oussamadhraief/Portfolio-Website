@@ -33,3 +33,7 @@ a {
 #ProjectsPart::-webkit-scrollbar, #EducationPart::-webkit-scrollbar,  #ExperiencePart::-webkit-scrollbar, #SkillsPart::-webkit-scrollbar {
   height: 288px;
 }
+
+#loading {
+  background-color: rgba(255, 255, 255, 0.898);
+}

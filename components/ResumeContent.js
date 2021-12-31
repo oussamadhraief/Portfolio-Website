@@ -5,7 +5,7 @@ import ProjectsSection from './ProjectsSection'
 
 export default function ResumeContent(){
     return (
-        <div id='ResumeContent' className='overflow-y-hidden mx-auto sm:mx-0 px-1 sm:px-5 w-full sm:w-fit h-72'>
+        <div id='ResumeContent' className='overflow-y-hidden mt-4 md:mt-0 mx-auto sm:mx-0 px-1 sm:px-5 w-full sm:w-fit h-72'>
             <EducationSection />
             <ExperienceSection />
             <SkillsSection />

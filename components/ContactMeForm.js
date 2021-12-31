@@ -43,7 +43,7 @@ const handleSubmit = async () => {
 
     if(submitted) 
     return (
-        <div className="grid space-y-5 w-4/6 p-5 h-full rounded-xl text-medium font-bold text-center text-gray-900 animate-[bounce_1s] content-center">
+        <div className="grid space-y-5 w-full md:w-4/6 py-20 md:p-5 h-full rounded-xl text-medium font-bold text-center text-gray-900 animate-[bounce_1s] content-center">
             Sent ✔️
             <br></br>
             Thank you for you message !

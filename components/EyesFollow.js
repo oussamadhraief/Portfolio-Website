@@ -12,15 +12,6 @@ export default function EyesFollow(){
             const eyes = document.getElementById('rotations')
             eyes.style.transform = `rotate(${rotationDegrees}deg)`
         })
-        
-        window.onscroll = () => {
-            if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-                document.getElementById('fullMonster').style.visibility = 'hidden'
-            }else{
-                document.getElementById('fullMonster').style.visibility = 'visible'
-
-            }
-        }
     })
 
     return(
@@ -56,4 +47,4 @@ export default function EyesFollow(){
             </div>
             </div>
     )
-}
+} 

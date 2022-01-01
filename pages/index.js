@@ -6,6 +6,7 @@ import AboutMeSection from '../components/AboutMeSection'
 import Resume from '../components/Resume'
 import ContactMeSection from '../components/ContactMeSection'
 import Copyright from '../components/Copyright'
+import EyesFollow from '../components/EyesFollow'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Header />
       <MainSection />
       <BackgroundImage />
+      <EyesFollow />
       <AboutMeSection />
       <Resume />
       <ContactMeSection />

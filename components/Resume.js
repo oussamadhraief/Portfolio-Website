@@ -6,7 +6,7 @@ import 'animate.css'
 
 export default function Resume(){
 
-    const [resumeClasses,setResumeClasses] = useState('content-center w-11/12 xl:w-7/12 p-3 mx-auto grid mt-12 invisible')
+    const [resumeClasses,setResumeClasses] = useState('content-center w-11/12 lg:w-9/12 xl:w-7/12 p-3 mx-auto grid mt-12 invisible')
 
     useEffect(() => {
         const sectionOneOptions = {
@@ -19,7 +19,7 @@ export default function Resume(){
             ) {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        setResumeClasses('content-center w-11/12 xl:w-7/12 p-3 mx-auto grid mt-12 visible animate__animated animate__fadeInUp')
+                        setResumeClasses('content-center w-11/12 lg:w-9/12 xl:w-7/12 p-3 mx-auto grid mt-12 visible animate__animated animate__fadeInUp')
                     }
                 });
             },

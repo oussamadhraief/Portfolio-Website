@@ -10,7 +10,7 @@ import EyesFollow from '../components/EyesFollow'
 
 export default function Home() {
   return (
-    <div className='bg-gray-900 py-0 h-20'> 
+    <div className='bg-gray-900 overflow-x-clip py-0 h-20'> 
       <Head>
         <title>Oussama Dhraief - Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

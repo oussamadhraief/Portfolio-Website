@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Oussama Dhraief - Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="A passionate software developer with great ambitions."></meta>
+        <meta name="description" content="A passionate software developer with great ambitions."/>
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/code.gif"></link>
         <meta name="googlebot" content="index, follow"/>
@@ -30,6 +30,10 @@ export default function Home() {
         <meta itemProp='name' content="Oussama Dhraief - Portfolio"/>
         <meta itemProp='description' content="A passionate software developer with great ambitions."/>
         <meta itemProp='image' content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
+        <meta name="twitter:card" value="summary_large_image"/>
+        <meta name="twitter:title" value="Oussama Dhraief - Portfolio"/>
+        <meta name="twitter:description" value="A passionate software developer with great ambitions."/>
+        <meta name="twitter:image" value="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
       </Head>
       <Header />
       <MainSection />

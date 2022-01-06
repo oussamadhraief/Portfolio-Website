@@ -20,16 +20,16 @@ export default function Home() {
         <meta name="googlebot" content="index, follow"/>
         <meta name="keywords" content="Oussema Dhraief , oussema.dhraief@gmail.com, Portfolio, Oussama Portfolio , web developer, full stack, full stack web developer, mobile app developer, computer science, tunisia, react , rest api, front-end, back-end, mern stack, nextjs, tailwind,css, nodejs , expressjs, reactjs , mongoose, redux, mongoDB" />
         <meta name='image' content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png" />
-        <meta itemprop="name" content="Oussama Dhraief - Portfolio"/>
-        <meta itemprop="description" content="A passionate software developer with great ambitions."/>
+        <meta itemProp="name" content="Oussama Dhraief - Portfolio"/>
+        <meta itemProp="description" content="A passionate software developer with great ambitions."/>
         <meta property="og:title" content="Oussama Dhraief - Portfolio"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="www.oussama-dhraief.tech"/>
         <meta property="og:image" content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
         <meta property="og:description" content="A passionate software developer with great ambitions."/>
-        <meta itemprop="name" content="Oussama Dhraief - Portfolio"/>
-        <meta itemprop="description" content="A passionate software developer with great ambitions."/>
-        <meta itemprop="image" content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
+        <meta itemProp='name' content="Oussama Dhraief - Portfolio"/>
+        <meta itemProp='description' content="A passionate software developer with great ambitions."/>
+        <meta itemProp='image' content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
       </Head>
       <Header />
       <MainSection />

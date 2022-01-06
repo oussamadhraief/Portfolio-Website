@@ -14,11 +14,12 @@ export default function Home() {
       <Head>
         <title>Oussama Dhraief - Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="A passionate Software Developer with great ambitions."></meta>
+        <meta name="description" content="A passionate software developer with great ambitions."></meta>
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/code.gif"></link>
+        <meta name="googlebot" content="index, follow"/>
         <meta name="keywords" content="Oussema Dhraief , oussema.dhraief@gmail.com, Portfolio, Oussama Portfolio , web developer, full stack, full stack web developer, mobile app developer, computer science, tunisia, react , rest api, front-end, back-end, mern stack, nextjs, tailwind,css, nodejs , expressjs, reactjs , mongoose, redux, mongoDB" />
-        <meta itemProp='image' content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641375932/banner_mcrhdy.png" />
+        <meta name='image' content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png" />
       </Head>
       <Header />
       <MainSection />

@@ -27,6 +27,9 @@ export default function Home() {
         <meta property="og:url" content="www.oussama-dhraief.tech"/>
         <meta property="og:image" content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
         <meta property="og:description" content="A passionate software developer with great ambitions."/>
+        <meta itemprop="name" content="Oussama Dhraief - Portfolio"/>
+        <meta itemprop="description" content="A passionate software developer with great ambitions."/>
+        <meta itemprop="image" content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
       </Head>
       <Header />
       <MainSection />

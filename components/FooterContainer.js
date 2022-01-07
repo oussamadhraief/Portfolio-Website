@@ -15,7 +15,7 @@ export default function FooterContainer(){
                 <Socials link="https://www.linkedin.com/in/oussama-dhraief/" icon={linkedinIcon} />
                 <Socials link="https://github.com/oussamadhraief" icon={githubIcon} />
             </div>
-            <p className="font-thin text-white mx-auto whitespace-nowrap sm:mx-0">Oussama Dhraief © 2021, Tunisia.</p>
+            <p className="font-thin text-white mx-auto whitespace-nowrap sm:mx-0">Oussama Dhraief © 2022, Tunisia.</p>
             <a href="#" className="font-bold text-white w-fit mx-auto sm:mx-0 border-2 border-dotted rounded-full px-3 py-2 hover:animate-[spin_1s_linear]">▲</a>
         </div>
     )

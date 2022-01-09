@@ -38,7 +38,7 @@ export default function Home() {
       <Header />
       <MainSection />
       <BackgroundImage />
-      <EyesFollow />
+      {/* <EyesFollow /> */}
       <AboutMeSection />
       <Resume />
       <ContactMeSection />

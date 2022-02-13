@@ -1,9 +1,7 @@
 import SideImage from "./SideImage"
 import Description from './Description'
 
-export default function Intro({ championData }){
-
-    const serverSide = championData
+export default function Intro(props){
 
     return (
             <div className="mx-auto grid mt-10 pb-3 rounded-lg lg:pb-0 mb-5 h-fit w-11/12 xl:w-5/6 2xl:w-9/12 3xl:w-4/6 border-[1px] shadow-lg">
@@ -22,16 +20,5 @@ export default function Intro({ championData }){
 
 
 Intro.getServerSideProps = async () => {
-
-    fetch('https://api.imgflip.com/get_memes')
-    .then(response => response.json())
-    .then(data => championData = data);
-  
-    // Pass data to the page via props
-    return { props: { championData }}
+    return { props: {fakeServer: "..."}}
   }
-  
-
-//<div>
-//
-//</div>

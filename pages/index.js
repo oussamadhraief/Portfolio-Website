@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/code.gif"></link>
         <meta name="googlebot" content="index, follow"/>
-        <meta name="keywords" content="Oussema Dhraief , oussema.dhraief@gmail.com, Portfolio, Oussama Portfolio , web developer, full stack, full stack web developer, mobile app developer, computer science, tunisia, react , rest api, front-end, back-end, mern stack, nextjs, tailwind,css, nodejs , expressjs, reactjs , mongoose, redux, mongoDB" />
+        <meta name="keywords" content="Oussema Dhraief, three js, 3d Portfolio, 3d animation, svg animation , oussema.dhraief@gmail.com, Portfolio, Oussama Portfolio , web developer, full stack, full stack web developer, mobile app developer, computer science, tunisia, react , rest api, front-end, back-end, mern stack, nextjs, tailwind,css, nodejs , expressjs, reactjs , mongoose, redux, mongoDB" />
         <meta name='image' content="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png" />
         <meta itemProp="name" content="Oussama Dhraief - Portfolio"/>
         <meta itemProp="description" content="A passionate software developer with great ambitions."/>

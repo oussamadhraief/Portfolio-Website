@@ -1,16 +1,17 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, useContext } from "react";
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from "./libs/model";
+import { LoadingContext } from "../utils/LoadingContext";
 
 function easeOutCircle(x) {
     return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const Monster = () => {
+const Monster = (props) => {
     const refContainer = useRef()
-    const [loading, setLoading] = useState(true)
     const [renderer,setRenderer] = useState()
+    const {loading, setLoading} = useContext(LoadingContext)
     const [_camera,setCamera] = useState()
     const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
     const [initialCameraPosition] = useState(

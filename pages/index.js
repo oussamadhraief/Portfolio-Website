@@ -7,10 +7,17 @@ import Resume from '../components/Resume'
 import ContactMeSection from '../components/ContactMeSection'
 import Copyright from '../components/Copyright'
 import EyesFollow from '../components/EyesFollow'
+import {LoadingContext} from '../utils/LoadingContext'
+import { useState } from 'react'
+import LoadingAnimation from '../components/LoadingAnimation'
 
 export default function Home() {
+
+  const [loading,setLoading] = useState(false)
+
   return (
-    <div className='bg-gray-900 overflow-x-clip py-0 h-20'> 
+    <div className={loading ? 'w-screen h-screen overflow-hidden' : 'bg-gray-900 overflow-x-clip py-0 h-20'}> 
+    <LoadingContext.Provider value={{loading,setLoading}}>
       <Head>
         <title>Oussama Dhraief - Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -43,6 +50,8 @@ export default function Home() {
       <Resume />
       <ContactMeSection />
       <Copyright />
+      {loading ? <LoadingAnimation /> : null}
+      </LoadingContext.Provider>
     </div>
   )
 }

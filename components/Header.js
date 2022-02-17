@@ -27,7 +27,7 @@ export default function Header(){
     
     return (
         <header className={classes}>
-            <Link  href="#" ><a id="Logo" className={logoClasses}>Oussama Dhraief</a></Link>
+            <Link  href="https://www.oussama-dhraief.tech" ><a id="Logo" className={logoClasses}>Oussama Dhraief</a></Link>
             <Navbar />
         </header>
     )

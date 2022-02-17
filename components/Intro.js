@@ -10,7 +10,7 @@ export default function Intro(props){
                     <span className="w-4 h-4 bg-yellow-500 rounded-full shadow-2xl hover:cursor-pointer hover:scale-105"></span>
                     <span className="w-4 h-4 bg-green-500 rounded-full shadow-2xl hover:cursor-pointer hover:scale-105"></span>
                 </div>
-                <div className="grid lg:flex w-full relative h-fit">
+                <div className="grid lg:flex w-full relative h-fit overflow-hidden">
                 <SideImage />
                 <Description />
                 </div>

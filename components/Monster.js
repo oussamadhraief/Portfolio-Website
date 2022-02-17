@@ -8,7 +8,7 @@ function easeOutCircle(x) {
     return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const Monster = (props) => {
+const Monster = () => {
     const refContainer = useRef()
     const [renderer,setRenderer] = useState()
     const {loading, setLoading} = useContext(LoadingContext)
@@ -93,6 +93,7 @@ const Monster = (props) => {
 
     return (
         <div ref={refContainer} className='monster relative m-10 w-96 h-96 mx-auto'>
+            
         </div>
     )
 }

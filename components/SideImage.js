@@ -2,11 +2,15 @@ import Image from "next/image"
 import { useEffect, useState } from "react"
 import Monster from "./Monster"
 import noSsr from "./no-ssr"
+import { LoadingContext } from "../utils/LoadingContext";
+
 
 export default function SideImage(){
 
     const coding = "coding_tfbugk.gif"
     const [phone,setPhone] = useState()
+    const {loading, setLoading} = useContext(LoadingContext)
+
 
     useEffect(() => {
         const mql = window.matchMedia('(max-width: 639px)')
@@ -14,6 +18,7 @@ export default function SideImage(){
             setPhone(true)
         }else{
             setPhone(false)
+            setLoading(false)
         }
     },[])
     

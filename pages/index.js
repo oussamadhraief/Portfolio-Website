@@ -13,7 +13,7 @@ import LoadingAnimation from '../components/LoadingAnimation'
 
 export default function Home() {
 
-  const [loading,setLoading] = useState(false)
+  const [loading,setLoading] = useState(true)
 
   return (
     <div className={loading ? 'w-screen h-screen overflow-hidden' : 'bg-gray-900 overflow-x-clip py-0 h-20'}> 

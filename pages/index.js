@@ -16,7 +16,7 @@ export default function Home() {
   const [loading,setLoading] = useState(true)
 
   return (
-    <div className={loading ? 'w-screen h-screen overflow-hidden' : 'bg-gray-900 overflow-x-clip py-0 h-20'}> 
+    <div className={loading ? 'w-screen h-screen overflow-hidden' : 'bg-main overflow-x-clip py-0 h-20'}> 
     <LoadingContext.Provider value={{loading,setLoading}}>
       <Head>
         <title>Oussama Dhraief - Portfolio</title>

@@ -12,7 +12,7 @@ export default function Description(){
             and to find more opportunities in order to become a high level software engineer.
             However, I like to hang out with friends and join university clubs to develop my social skills.
             </p>
-            <p className="font-semibold text-yellow-500 px-5 lg:px-0 font-sans w-3/6">
+            <p className="font-semibold text-secondary px-5 lg:px-0 font-sans w-3/6">
                 Hobbies and interests:
             </p>
             <Skills skillText="Sports" />

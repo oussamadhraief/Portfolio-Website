@@ -6,7 +6,7 @@ export default function SocialMediaLink(props){
             <a href={props.smLink} target="_blank" rel="noreferrer">
                 <Image src={props.smLogo} alt={props.altText} width={35} height={35}/>
             </a>
-            <span className="absolute text-center p-2 mt-2 w-20 top-14 -left-3 z-50 origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+            <span className="absolute text-center p-2 mt-2 w-20 top-14 -left-3 z-50 origin-bottom-top rounded-lg shadow-md text-white bg-main text-xs font-bold transition-all duration-100 hidden group-hover:block">
                 {props.hoverText}
             </span>
         </div>

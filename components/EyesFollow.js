@@ -16,17 +16,17 @@
 
 //     return(
 //             <div id="fullMonster" className="fixed visible hidden md:flex flex-nowrap left-3 z-50 bottom-2 animate-pulse">
-//             <div className="relative w-1.5 h-1.5 mt-[26px] rounded-full bg-yellow-500">
+//             <div className="relative w-1.5 h-1.5 mt-[26px] rounded-full bg-secondary">
                 
 //             </div>
-//             <div className="w-1.5 h-0.5 mt-6 bg-yellow-500 -rotate-45">
+//             <div className="w-1.5 h-0.5 mt-6 bg-secondary -rotate-45">
                 
 //             </div>
            
-//             <div id="monster" className="relative w-10 pt-px h-12 bg-yellow-500 rounded-full">
+//             <div id="monster" className="relative w-10 pt-px h-12 bg-secondary rounded-full">
 //                 <div id="eye" className="eye relative mx-auto w-5 h-5 bg-white rounded-full">
 //                     <div id="rotations" className="relative w-full h-full">
-//                         <div id="eyeball" className="relative m-2 w-2 h-2 bg-gray-900 rounded-full">
+//                         <div id="eyeball" className="relative m-2 w-2 h-2 bg-main rounded-full">
 //                         </div>
 //                     </div>
 //                 </div>
@@ -39,10 +39,10 @@
 //                     </div>
 //                 </div>
 //             </div>
-//             <div className="w-1.5 h-0.5 mt-6 bg-yellow-500 rotate-45">
+//             <div className="w-1.5 h-0.5 mt-6 bg-secondary rotate-45">
                 
 //             </div>
-//             <div className="relative w-1.5 h-1.5 mt-[26px] rounded-full bg-yellow-500">
+//             <div className="relative w-1.5 h-1.5 mt-[26px] rounded-full bg-secondary">
                 
 //             </div>
 //             </div>

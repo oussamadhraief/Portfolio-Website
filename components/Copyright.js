@@ -3,12 +3,12 @@ import FooterContainer from './FooterContainer'
 
 export default function Copyright(){
 
-    const bgImage = "download2_bfdqxg.svg"
+    const bgImage = "bottom_o1wq8p.png"
     
     return(
-        <footer className="w-full bg-gray-900 mt-10 h-fit mb-8">
-            <div className="w-screen relative bg-white">
-            <Image src={bgImage} alt="Wavy background white image" width={300} height={20} quality={100} layout='responsive'/>
+        <footer className="w-full bg-main mt-10 h-fit mb-8">
+            <div className="w-screen relative h-16 sm:h-32 bg-white">
+            <Image src={bgImage} alt="Wavy background white image" quality={100} layout='fill'/>
             </div>
             <FooterContainer />
         </footer>

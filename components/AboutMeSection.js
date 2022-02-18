@@ -5,7 +5,7 @@ import 'animate.css'
 
 export default function AboutMeSection(){
 
-    const [aboutClasses,setAboutClasses] = useState('p-0 w-screen mt-7 grid mx-auto invisible')
+    const [aboutClasses,setAboutClasses] = useState('p-0 mt-7 w-screen grid mx-auto invisible')
 
     useEffect(() => {
         const sectionOneOptions = {
@@ -18,7 +18,7 @@ export default function AboutMeSection(){
             ) {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        setAboutClasses('p-0 w-screen mt-7 grid mx-auto visible animate__animated animate__fadeInUp')
+                        setAboutClasses('p-0 mt-7 w-screen grid mx-auto visible animate__animated animate__fadeInUp')
                     }
                 });
             },

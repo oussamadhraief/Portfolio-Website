@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { useEffect, useState,useContext } from "react"
 import Monster from "./Monster"
-import NoSsr from "./no-ssr"
+import NoSsr from "./NoSsr"
 import { LoadingContext } from "../utils/LoadingContext";
 
 

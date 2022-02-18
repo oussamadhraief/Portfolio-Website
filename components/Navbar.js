@@ -2,7 +2,7 @@ import NavbarLink from "./NavbarLink"
 
 
 export default function Navbar(){
-    const link = "/"
+
 
     return(
         <nav className="pt-5 hidden lg:flex flex-nowrap mr-10">

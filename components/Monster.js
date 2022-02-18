@@ -40,12 +40,12 @@ const Monster = () => {
             container.appendChild(renderer.domElement)
             setRenderer(renderer)
             
-            const scale = scH * 0.005 + 10.8
+            const scale = scH * 0.005 +4
             const camera = new THREE.OrthographicCamera(
+                -scale -2,
+                scale ,
+                scale +8,
                 -scale,
-                scale,
-                scale +10,
-                -scale +6,
                 0.01,
                 50000
             )
@@ -58,7 +58,7 @@ const Monster = () => {
             controls.autoRotate = true
             controls.target = target
             setControls(controls)
-            loadGLTFModel(scene, '/monster.glb', {
+            loadGLTFModel(scene, '/monster.gltf', {
                 receiveShadow: false,
                 castShadow: false
             }).then(() => {
@@ -92,7 +92,7 @@ const Monster = () => {
     },[])
 
     return (
-        <div ref={refContainer} className='monster relative m-10 w-96 h-96 mx-auto'>
+        <div ref={refContainer} className='monster overflow-visible relative m-10 w-96 h-96 mx-auto'>
             
         </div>
     )

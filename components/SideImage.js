@@ -15,9 +15,9 @@ export default function SideImage(){
         let mql = window.matchMedia('(max-width: 639px)')
             if(mql.matches){ 
                 setPhone(true)
+                setLoading(false)
             }else{
                 setPhone(false)
-                setLoading(false)
             }
     })
 
@@ -27,9 +27,9 @@ export default function SideImage(){
             let mql = window.matchMedia('(max-width: 639px)')
             if(mql.matches){ 
                 setPhone(true)
+                setLoading(false)
             }else{
                 setPhone(false)
-                setLoading(false)
             }
         })
     })

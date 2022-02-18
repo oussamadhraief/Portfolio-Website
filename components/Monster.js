@@ -40,12 +40,12 @@ const Monster = () => {
             container.appendChild(renderer.domElement)
             setRenderer(renderer)
             
-            const scale = scH * 0.005 + 20.8
+            const scale = scH * 0.005 + 10.8
             const camera = new THREE.OrthographicCamera(
                 -scale,
                 scale,
-                scale +20,
-                -scale,
+                scale +10,
+                -scale +6,
                 0.01,
                 50000
             )

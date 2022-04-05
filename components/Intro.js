@@ -19,7 +19,7 @@ export default function Intro(props){
 }
 
 
-Intro.getServerSideProps = () => {
+Intro.getServerSideProps = async () => {
     return { props: { hi: 'hi' } }
 }
   

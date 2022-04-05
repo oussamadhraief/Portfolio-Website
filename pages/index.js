@@ -7,14 +7,10 @@ import Resume from '../components/Resume'
 import ContactMeSection from '../components/ContactMeSection'
 import Copyright from '../components/Copyright'
 import {LoadingContext} from '../utils/LoadingContext'
-import { useState,useEffect } from 'react'
+import { useState } from 'react'
 import LoadingAnimation from '../components/LoadingAnimation'
 
 export default function Home(props) {
-
-  useEffect(() => {
-    console.log(props);
-})
 
   const [loading,setLoading] = useState(true)
 
@@ -60,7 +56,5 @@ export default function Home(props) {
 
 
 export async function getServerSideProps() {
-  const res = await fetch('https://randomuser.me/api/')
-  const  { results }  = await res.json()
-  return { props: { data: results } }
+  return { props: { data: 'results' } }
 }

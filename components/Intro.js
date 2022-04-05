@@ -20,6 +20,8 @@ export default function Intro(props){
 
 
 Intro.getServerSideProps = async () => {
-    return { props: { hi: 'hi' } }
+    const res = await fetch('https://random-data-api.com/api/stripe/random_stripe')
+    const { data } = await res.json()
+    return { props: { data: data } }
 }
   

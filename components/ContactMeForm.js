@@ -19,14 +19,14 @@ const handleChange = (e) => {
 const handleSubmit = async () => {
     try {
         setLoading(true)
-        const res = await fetch('api/contacts', {
+        const res = await fetch('/api/contacts', {
             method: 'POST',
             headers: {
                 "Accept": "application/json",
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(formInputs)
-        }).then((res) =>{
+        }).then(async (res) =>{
             if(res.status == 201){
                 setLoading(false)
                 setFormInputs({name: "", email: "", message: ""})

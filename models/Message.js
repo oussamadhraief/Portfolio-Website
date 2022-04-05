@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const ContactSchema = new mongoose.Schema({
+const MessageSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Please enter your name'],
@@ -22,4 +22,4 @@ const ContactSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.models.Contact || mongoose.model('Contact' , ContactSchema)
+module.exports = mongoose.models.Message || mongoose.model('Message' , MessageSchema)

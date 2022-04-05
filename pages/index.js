@@ -6,7 +6,6 @@ import AboutMeSection from '../components/AboutMeSection'
 import Resume from '../components/Resume'
 import ContactMeSection from '../components/ContactMeSection'
 import Copyright from '../components/Copyright'
-import EyesFollow from '../components/EyesFollow'
 import {LoadingContext} from '../utils/LoadingContext'
 import { useState } from 'react'
 import LoadingAnimation from '../components/LoadingAnimation'
@@ -45,7 +44,6 @@ export default function Home() {
       <Header />
       <MainSection />
       <BackgroundImage />
-      {/* <EyesFollow /> */}
       <AboutMeSection />
       <Resume />
       <ContactMeSection />
@@ -55,7 +53,3 @@ export default function Home() {
     </div>
   )
 }
-
-
-
-// to-slate-800 bg-gradient-to-br 

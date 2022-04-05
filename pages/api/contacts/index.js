@@ -1,17 +1,17 @@
 import dbConnect from "../../../utils/dbConnect"
-import Contact from "../../../models/Contact"
+import Message from "../../../models/Message"
 
 dbConnect()
 
 
 
-const pushData = async (req, res) => {
+export default async  (req, res) => {
 
     try{
         
-        const contact = await Contact.create(req.body)
+        const Messages = await Message.create(req.body)
         
-        res.status(201).json({ success: true, data: contact })
+        res.status(201).json({ success: true, data: Messages })
 
     } catch (error){
  
@@ -20,5 +20,3 @@ const pushData = async (req, res) => {
 
     }
 }
-
-export default pushData

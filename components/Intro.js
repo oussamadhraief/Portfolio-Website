@@ -1,5 +1,6 @@
 import SideImage from "./SideImage"
 import Description from './Description'
+import { useEffect } from "react"
 
 export default function Intro(props){
 
@@ -19,6 +20,7 @@ export default function Intro(props){
 }
 
 
-Intro.getServerSideProps = async () => {
-    return { props: {fakeServer: "..."}}
-  }
+export async function getServerSideProps () {
+    return { props: { hi: 'hi' } }
+}
+  

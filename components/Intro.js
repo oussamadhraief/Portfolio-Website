@@ -1,12 +1,7 @@
 import SideImage from "./SideImage"
 import Description from './Description'
-import { useEffect } from "react"
 
-export default function Intro(props){
-
-    useEffect(() => {
-        console.log(props);
-    })
+export default function Intro(){
 
     return (
             <div className="mx-auto grid mt-10 pb-3 rounded-lg lg:pb-0 mb-5 h-fit w-11/12 xl:w-5/6 2xl:w-9/12 3xl:w-4/6 border-[1px] shadow-lg">
@@ -23,9 +18,5 @@ export default function Intro(props){
     )
 }
 
-export async function getServerSideProps() {
-    const res = await fetch('https://randomuser.me/api/')
-    const  { results }  = await res.json()
-    return { props: { data: results } }
-}
+
   

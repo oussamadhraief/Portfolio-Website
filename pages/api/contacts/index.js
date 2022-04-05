@@ -9,7 +9,7 @@ export default async  (req, res) => {
 
     try{
         
-        const Messages = await Message.create(req.body)
+        const Messages = await Message.find({})
         
         res.status(201).json({ success: true, data: Messages })
 

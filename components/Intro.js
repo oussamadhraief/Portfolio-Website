@@ -1,7 +1,7 @@
 import SideImage from "./SideImage"
 import Description from './Description'
 
-export default function Intro(){
+export default function Intro(props){
 
     return (
             <div className="mx-auto grid mt-10 pb-3 rounded-lg lg:pb-0 mb-5 h-fit w-11/12 xl:w-5/6 2xl:w-9/12 3xl:w-4/6 border-[1px] shadow-lg">
@@ -16,5 +16,10 @@ export default function Intro(){
                 </div>
             </div>
     )
+}
+
+
+Intro.getServerSideProps = () => {
+    return { props: { hi: 'hi' } }
 }
   

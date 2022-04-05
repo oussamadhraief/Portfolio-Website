@@ -10,7 +10,7 @@ import {LoadingContext} from '../utils/LoadingContext'
 import { useState } from 'react'
 import LoadingAnimation from '../components/LoadingAnimation'
 
-export default function Home(props) {
+export default function Home() {
 
   const [loading,setLoading] = useState(true)
 
@@ -52,8 +52,4 @@ export default function Home(props) {
       </LoadingContext.Provider>
     </div>
   )
-}
-
-export async function getServerSideProps () {
-  return { props: { hi: 'hi' } }
 }

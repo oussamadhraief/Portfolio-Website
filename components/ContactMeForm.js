@@ -58,7 +58,7 @@ const handleSubmit = async () => {
         <form action="submit" onSubmit={(e) => {
             e.preventDefault()
             handleSubmit()
-        }} className="grid w-full md:w-3/6 p-5 h-fit rounded-xl relative overflow-y-hidden">
+        }} className="grid w-full md:w-3/6 px-5 pt-5 h-fit rounded-xl relative overflow-y-hidden">
             <p className=" text-xl my-3 font-bold text-main"><span className="text-zinc-400 text-medium font-thin">*</span> Full name: <span className="text-sm font-thin text-zinc-400">(4 characters at least)</span></p>
             <input type="text" name="name" value={formInputs.name} minLength={4} onChange={(e) => handleChange(e)} className=" border-2 rounded-lg border-main h-12" required />
         
@@ -70,8 +70,8 @@ const handleSubmit = async () => {
 
             {dataError ? <p className="text-sm font-thin animate__animated animate__flash text-red-900">Your message is too short. </p> : null}
         
-            <input type="submit" name="submit" className="bg-main w-fit mt-3 px-3 py-2 md:px-6 md:py-3 rounded-2xl font-bold text-xl font-mono text-white hover:bg-secondary hover:scale-110 hover:cursor-pointer mx-auto my-10" />
-           {loading ? <div id='loading' className="flex w-full h-full md:h-[93%] justify-center items-center text-main rounded-xl text-center text-lg font-extrabold absolute overflow-hidden">
+            <input type="submit" name="submit" className="bg-main w-fit px-3 py-2 md:px-6 md:py-3 rounded-2xl font-bold text-xl font-mono text-white hover:bg-secondary hover:scale-110 hover:cursor-pointer mx-auto mt-10 mb-3" />
+           {loading ? <div id='loading' className="flex inset-0 justify-center items-center text-main rounded-xl text-center text-lg font-extrabold absolute overflow-hidden">
                 PROCESSING<Typewriter
                             words={['...']}
                             loop={0}

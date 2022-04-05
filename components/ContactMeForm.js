@@ -28,7 +28,6 @@ const handleSubmit = async () => {
             body: JSON.stringify(formInputs)
         }).then(async (res) =>{
             if(res.status == 201){
-                console.log(res);
                 setLoading(false)
                 setFormInputs({name: "", email: "", message: ""})
                 setSubmitted(true)

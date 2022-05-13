@@ -14,7 +14,7 @@ async function dbConnect(){
         useNewUrlParser: true,
     })
 
-    connection.isConnected = db.connections[0].readyState
+    connection.isConnected = db
     
 }
 

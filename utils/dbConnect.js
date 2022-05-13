@@ -9,9 +9,11 @@ async function dbConnect(){
         return
     }
 
-    const db = mongoose.connect(process.env.MONGO_URI, {
-        useNewUrlParser: true,
+    const db_url = "mongodb+srv://Oussema17:pWgTwYXshr2sFvkk@cluster0.gvckm.mongodb.net/Cluster0?retryWrites=true&w=majority"
+
+    const db = mongoose.connect(db_url, {
         useUnifiedTopology: true,
+        useNewUrlParser: true,
     })
 
     connection.isConnected = db.connections[0].readyState

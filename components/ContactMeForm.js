@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import 'animate.css'
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 
 export default function ContactMeForm(){
 
@@ -65,7 +65,7 @@ const handleSubmit = async () => {
             <p className="text-xl my-3 font-bold text-main"><span className="text-zinc-400 text-medium font-thin">*</span> E-mail: <span className="text-sm font-thin text-zinc-400"></span></p>
             <input type="email" name="email" value={formInputs.email} onChange={(e) => handleChange(e)}  className="  border-2 rounded-lg border-main h-12" required />
         
-            <p className="text-xl my-3 font-bold text-main"><span className="text-zinc-400 text-medium font-thin">*</span> Message: <span className="text-sm font-thin text-zinc-400">(4 characters at least)</span></p>
+            <p className="text-xl my-3 font-bold text-main"><span className="text-zinc-400 text-medium font-thin">*</span> Feedback: <span className="text-sm font-thin text-zinc-400">(4 characters at least)</span></p>
             <textarea name="message" value={formInputs.message} onChange={(e) => handleChange(e)} cols={50} rows={4} className=" resize-none border-2 rounded-lg border-main h-32"  required />
 
             {dataError ? <p className="text-sm font-thin animate__animated animate__flash text-red-900">Your message is too short. </p> : null}

@@ -32,6 +32,7 @@ const handleSubmit = async () => {
                 setFormInputs({name: "", email: "", message: ""})
                 setSubmitted(true)
             }else{
+                console.log(res);
                 setLoading(false)
                 setDataError(false)
                 setDataError(true)

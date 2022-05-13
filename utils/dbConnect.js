@@ -9,9 +9,7 @@ async function dbConnect(){
         return
     }
 
-    const db_url = "mongodb+srv://Oussema17:pWgTwYXshr2sFvkk@cluster0.gvckm.mongodb.net/Cluster0?retryWrites=true&w=majority"
-
-    const db = mongoose.connect(db_url, {
+    const db = mongoose.connect(process.env.MONGO_URI, {
         useUnifiedTopology: true,
         useNewUrlParser: true,
     })

@@ -68,7 +68,7 @@ const handleSubmit = async () => {
             <p className="text-xl my-3 font-bold text-main"><span className="text-zinc-400 text-medium font-thin">*</span> Feedback: <span className="text-sm font-thin text-zinc-400">(4 characters at least)</span></p>
             <textarea name="message" value={formInputs.message} onChange={(e) => handleChange(e)} cols={50} rows={4} className=" resize-none border-2 rounded-lg border-main h-32"  required />
 
-            {dataError ? <p className="text-sm font-thin animate__animated animate__flash text-red-900">Your message is too short. </p> : null}
+            {dataError ? <p className="text-sm font-thin animate__animated animate__flash text-red-900">This form currently doesn't work, i will fix as soon as i can. Please contact me on my email: oussema.dhraief@gmail.com </p> : null}
         
             <input type="submit" name="submit" className="bg-main w-fit px-3 py-2 md:px-6 md:py-3 rounded-2xl font-bold text-xl font-mono text-white hover:bg-secondary hover:scale-110 hover:cursor-pointer mx-auto mt-10 mb-3" />
            {loading ? <div id='loading' className="flex inset-0 justify-center items-center text-main rounded-xl text-center text-lg font-extrabold absolute overflow-hidden">

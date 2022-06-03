@@ -48,7 +48,6 @@ export default function Home(props) {
       <Resume />
       <ContactMeSection />
       <Copyright />
-      {loading ? <LoadingAnimation /> : null}
       </LoadingContext.Provider>
     </div>
   )

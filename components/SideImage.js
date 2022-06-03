@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { useEffect, useState,useContext } from "react"
 import Monster from "./Monster"
+import LoadingAnimation from "./LoadingAnimation"
 import NoSsr from "./NoSsr"
 import { LoadingContext } from "../utils/LoadingContext";
 
@@ -41,6 +42,7 @@ export default function SideImage(){
             <NoSsr>
                 <Monster />
             </NoSsr>}
+            {loading ? <LoadingAnimation /> : null}
         </div>
     )
 }

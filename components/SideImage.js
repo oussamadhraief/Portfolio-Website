@@ -42,7 +42,7 @@ export default function SideImage(){
             <NoSsr>
                 <Monster />
             </NoSsr>}
-            {loading ? <LoadingAnimation /> : null}
+            {true ? <LoadingAnimation /> : null}
         </div>
     )
 }

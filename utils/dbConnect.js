@@ -9,7 +9,7 @@ async function dbConnect(){
         return
     }
 
-    const db = mongoose.connect(process.env.MONGO_URI, {
+    const db = mongoose.connect(process.env.MONGO_URL, {
         useUnifiedTopology: true,
         useNewUrlParser: true,
     })

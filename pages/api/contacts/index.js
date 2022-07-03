@@ -1,5 +1,5 @@
 import dbConnect from "../../../utils/dbConnect"
-import Hellos from "../../../models/Hellos"
+import Hello from "../../../models/Hello"
 var validator = require('validator')
 
 dbConnect()
@@ -13,9 +13,9 @@ export default async  (req, res) => {
             res.status(400).json({ success: false })
             return
         }
-        const Helloss = await Hellos.create(req.body)
+        const Hellos = await Hello.create(req.body)
         
-        res.status(201).json({ success: true, data: Helloss })
+        res.status(201).json({ success: true, data: Hellos })
 
     } catch (error){
  

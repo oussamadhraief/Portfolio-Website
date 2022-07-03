@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const HellosSchema = new mongoose.Schema({
+const HelloSchema = new mongoose.Schema({
     name: {
         type: String
     },
@@ -12,4 +12,4 @@ const HellosSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.models.Hellos || mongoose.model('Hellos' , HellosSchema)
+module.exports = mongoose.models.Hello || mongoose.model('Hello' , HelloSchema)

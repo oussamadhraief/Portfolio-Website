@@ -1,4 +1,4 @@
-import WebSkill from './WebSkill'
+import Image from "next/image"
 
 
 export default function SkillsSection(){
@@ -16,22 +16,109 @@ export default function SkillsSection(){
     const git = "git_b23wnr.svg"
     const tailwind = "tailwind_k1zaze.png"
     const threejs = "Three.js_Icon.svg_i13nrx.png"
+    const mysql = "icons8-mysql-logo-48_u64ywf"
+    const jwt = "icons8-json-web-token-48_ujle0l"
+    const stripe = "icons8-stripe-48_egmca6"
 
     return ( 
         <div id="SkillsPart" className='h-72 overflow-y-scroll overflow-x-hidden flex flex-wrap gap-3 md:gap-3 pt-3 px-5 md:py-5 justify-center'>
-            <WebSkill srcPath={html} altText="HTML Icon" hoverText="HTML" />
-            <WebSkill srcPath={css} altText="CSS Icon" hoverText="CSS" />
-            <WebSkill srcPath={js} altText="Javascript Icon" hoverText="JavaScript" />
-            <WebSkill srcPath={react} altText="ReactJS Icon" hoverText="ReactJS" />
-            <WebSkill srcPath={next} altText="Next.js Icon" hoverText="Next.js" />
-            <WebSkill srcPath={node} altText="Node.js Icon" hoverText="Node.js" />
-            <WebSkill srcPath={express} altText="Express.js Framework Icon" hoverText="Express.js" />
-            <WebSkill srcPath={mongo} altText="MongoDB Mongoose Icon" hoverText="MongoDB" />
-            <WebSkill srcPath={ts} altText="TypeScript Icon" hoverText="TypeScript" />
-            <WebSkill srcPath={firebase} altText="Firebase Icon" hoverText="Firebase" />
-            <WebSkill srcPath={tailwind} altText="Tailwind Icon" hoverText="Tailwind" />
-            <WebSkill srcPath={git} altText="Git Icon" hoverText="Git" />
-            <WebSkill srcPath={threejs} altText="Three.js Icon" hoverText="Three.js" />
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={html} alt="HTML" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                HTML
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={css} alt="CSS" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                CSS
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={js} alt="JavaScript" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                JavaScript
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={react} alt="ReactJS" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                ReactJS
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={next} alt="Next.js" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                Next.js
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={node} alt="Node.js" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                Node.js
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={express} alt="Express.js" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                Express.js
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={mongo} alt="MongoDB" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                MongoDB
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={ts} alt="TypeScript" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                TypeScript
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={firebase} alt="Firebase" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                Firebase
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={tailwind} alt="TailwindCSS" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                TailwindCSS
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={git} alt="Git" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                Git
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={threejs} alt="Three.js" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                Three.js
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={mysql} alt="MySQL" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                MySQL
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={jwt} alt="JWT" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                JWT
+                </span>
+            </div>
+            <div className="w-14 h-14 z-10 mb-7 rounded-full bg-white relative shadow-[0_5px_15px_#113771] px-2 py-2 hover:scale-125 hover:cursor-pointer group transition-all hover:z-20">
+                <Image src={stripe} alt="Stripe" width={40} height={40}/>
+                <span className="absolute text-center p-1 2xl:p-2 w-20 top-[110%] left-1/2 -translate-x-1/2 z-[9999] origin-bottom-top rounded-lg shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 hidden group-hover:block">
+                Stripe
+                </span>
+            </div>
+        
         </div>
     )
 }

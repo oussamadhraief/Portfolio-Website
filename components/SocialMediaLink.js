@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function SocialMediaLink(props){
     return(
-        <div className="shadow-[0_5px_15px_#113771] w-14 h-14 z-50 rounded-full p-3 hover:scale-125 hover:cursor-pointer group">
+        <div className="shadow-[0_5px_15px_#113771] w-14 h-14 z-50 rounded-full p-3 hover:scale-125 transition-all hover:cursor-pointer group">
             <a href={props.smLink} target="_blank" rel="noreferrer">
                 <Image src={props.smLogo} alt={props.altText} width={35} height={35}/>
             </a>

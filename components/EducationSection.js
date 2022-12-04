@@ -14,7 +14,7 @@ export default function EducationSection(){
             <div className="grid sm:flex w-full justify-between mx-auto">
                 <div className="grid max-w-max sm:w-fit">
                     <h1 className="font-medium text-secondary">Higher Institute of Applied Science and Technology of Sousse</h1>
-                    <p className="font-semibold">Bachelor's degree of Computer Science</p>
+                    <p className="font-semibold">Bachelor&apos;s degree of Computer Science</p>
                 </div>
                 <span className="rounded-full bg-secondary w-fit h-fit px-3 mt-3 sm:mt-0 py-1 font-medium text-white ml-3 whitespace-nowrap">2019-2022</span>
             </div>  

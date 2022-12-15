@@ -18,7 +18,7 @@ export default function ExperienceSection(){
             </div>
 
             <div className="w-full h-72"> 
-                <h2 className="text-main font-semibold 2xl:font-bold">Dentrain UAE (Full-Stack Web Developer)</h2>
+                <p className="text-main font-semibold 2xl:font-bold whitespace-nowrap flex">Dentrain UAE &nbsp;<h1>(Full-Stack Web Developer)</h1></p>
                 <p className="font-thin sm:font-normal">
                 Developing and maintaining a website for selling medical scrubs.
                 </p>

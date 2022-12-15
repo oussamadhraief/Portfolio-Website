@@ -11,25 +11,25 @@ export default function Footer(){
     return(
         <footer className="w-full bg-main mt-10 h-fit mb-8">
             <div className="w-screen relative h-16 sm:h-32 bg-white">
-            <Image src={bgImage} alt="Wavy background white image" quality={100} layout='fill'/>
+            <Image src={bgImage} alt="Wave css background image" quality={100} layout='fill'/>
             </div>
             <div className="grid sm:flex sm:flex-wrap bg-inherit px-14 pt-24 pb-5 space-y-3 sm:space-y-0 sm:justify-between">
             <div className="flex flex-nowrap mx-auto sm:mx-0">
 
                 <a href="https://www.facebook.com/oussema.dhraief/" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={fbIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={fbIcon} alt="Facebook link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
 
                 <a href="https://www.instagram.com/oussema.dhraief/" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={instaIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={instaIcon} alt="instagram Link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
 
                 <a href="https://www.linkedin.com/in/oussama-dhraief/" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={linkedinIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={linkedinIcon} alt="linkedin Link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
 
                 <a href="https://github.com/oussamadhraief" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={githubIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={githubIcon} alt="github Link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
                 
             </div>

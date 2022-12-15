@@ -5,11 +5,11 @@ export default function ExperienceSection(){
         <div id="ExperiencePart" className='h-72 pl-3 overflow-y-scroll w-fit 2xl:w-94 pt-2'>
 
             <div className="w-full h-fit mb-3"> 
-                <h1 className="text-main font-semibold 2xl:font-bold">End of Studies Internship at QUICK Medical services (Full-Stack Developer)</h1>
+                <h2 className="text-main font-semibold 2xl:font-bold">End of Studies Internship at QUICK Medical services (Full-Stack Developer)</h2>
                 <p className="font-thin sm:font-normal">
                 Developing and maintaining an E-commerce web application.
                 </p>
-                <h1 className="text-main font-medium 2xl:font-semibold">Technologies used:</h1>
+                <h2 className="text-main font-medium 2xl:font-semibold">Technologies used:</h2>
                 <p className="font-normal px-5 lg:px-0 2xl:font-medium"><span className="font-extrabold whitespace-nowrap text-xl lg:text-2xl text-secondary my-0 py-0 w-full">.</span> Next.js (ReactJS)</p>
                 <p className="font-normal px-5 lg:px-0 2xl:font-medium"><span className="font-extrabold whitespace-nowrap text-xl lg:text-2xl text-secondary my-0 py-0 w-full">.</span> Tailwind CSS</p>
                 <p className="font-normal px-5 lg:px-0 2xl:font-medium"><span className="font-extrabold whitespace-nowrap text-xl lg:text-2xl text-secondary my-0 py-0 w-full">.</span> Node.js</p>
@@ -18,11 +18,11 @@ export default function ExperienceSection(){
             </div>
 
             <div className="w-full h-72"> 
-                <h1 className="text-main font-semibold 2xl:font-bold">Dentrain UAE (Full-Stack Web Developer)</h1>
+                <h2 className="text-main font-semibold 2xl:font-bold">Dentrain UAE (Full-Stack Web Developer)</h2>
                 <p className="font-thin sm:font-normal">
                 Developing and maintaining a website for selling medical scrubs.
                 </p>
-                <h1 className="text-main font-medium 2xl:font-semibold">Technologies used:</h1>
+                <h2 className="text-main font-medium 2xl:font-semibold">Technologies used:</h2>
                 <p className="font-normal px-5 lg:px-0 2xl:font-medium"><span className="font-extrabold whitespace-nowrap text-xl lg:text-2xl text-secondary my-0 py-0 w-full">.</span> ReactJS</p>
                 <p className="font-normal px-5 lg:px-0 2xl:font-medium"><span className="font-extrabold whitespace-nowrap text-xl lg:text-2xl text-secondary my-0 py-0 w-full">.</span> TypeScript</p>
                 <p className="font-normal px-5 lg:px-0 2xl:font-medium"><span className="font-extrabold whitespace-nowrap text-xl lg:text-2xl text-secondary my-0 py-0 w-full">.</span> Tailwind CSS</p>

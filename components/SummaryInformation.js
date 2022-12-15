@@ -11,19 +11,19 @@ export default function SummaryInformation(){
         <div className="bg-transparent flex mx-auto">
             
             <a href="https://www.facebook.com/oussema.dhraief/" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={fbIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={fbIcon} alt="Facebook Link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
 
                 <a href="https://www.instagram.com/oussema.dhraief/" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={instaIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={instaIcon} alt="Instagram Link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
 
                 <a href="https://www.linkedin.com/in/oussama-dhraief/" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={linkedinIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={linkedinIcon} alt="Linkedin Link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
 
                 <a href="https://github.com/oussamadhraief" target="_blank" className="mx-1 transition-all hover:scale-125" rel="noreferrer">
-                    <Image src={githubIcon} alt="Social Media Link" width={20} height={20} quality={100} layout="fixed" />
+                    <Image src={githubIcon} alt="Github Link" width={20} height={20} quality={100} layout="fixed" />
                 </a>
 
         </div>

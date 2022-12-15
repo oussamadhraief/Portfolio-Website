@@ -21,7 +21,7 @@ export default function NavigationSideBar(){
             document.getElementById('projectsLink').className = "whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"
             }} 
             className="transition delay-75 whitespace-nowrap text-white my-5 ml-1 text-xl font-semibold hover:cursor-pointer bg-main rounded-r-xl pr-14 h-fit" id="educationLink">
-            <Image className="bg-main m-0" src={educationIcon} width={25} height={25} quality={100} alt="Student Icon"/>
+            <Image className="bg-main m-0" src={educationIcon} width={25} height={25} quality={100} alt="Github student Icon"/>
             &nbsp;&nbsp;&nbsp;&nbsp;Education
             </span>
 
@@ -31,7 +31,7 @@ export default function NavigationSideBar(){
             document.getElementById('educationLink').className = "whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"
             document.getElementById('skillsLink').className = "whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"
             document.getElementById('projectsLink').className = "whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"
-            }} className="whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"><Image src={experienceIcon} width={25} height={25} quality={100} className="bg-main" alt="Experience Icon"/>&nbsp;&nbsp;&nbsp;&nbsp;Experience</span>
+            }} className="whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"><Image src={experienceIcon} width={25} height={25} quality={100} className="bg-main" alt="Professional Experience Icon"/>&nbsp;&nbsp;&nbsp;&nbsp;Experience</span>
             
             <span onClick={(e) => {
             document.getElementById('ResumeContent').scroll(0,576)
@@ -39,7 +39,7 @@ export default function NavigationSideBar(){
             document.getElementById('experienceLink').className = "whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"
             document.getElementById('educationLink').className = "whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"
             document.getElementById('projectsLink').className = "whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer"
-        }} className="whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer" id="skillsLink"> <Image src={skillsIcon} width={25} height={20} quality={100} alt="Skills Icon" className="bg-main m-0" />&nbsp;&nbsp;&nbsp;&nbsp;Skills</span>
+        }} className="whitespace-nowrap text-main pr-14 py-5 ml-1 text-xl font-semibold hover:cursor-pointer" id="skillsLink"> <Image src={skillsIcon} width={25} height={20} quality={100} alt="Web development and coding skills Icon" className="bg-main m-0" />&nbsp;&nbsp;&nbsp;&nbsp;Skills</span>
 
             <span id="projectsLink" onClick={(e) => {
             document.getElementById('ResumeContent').scroll(0,864)

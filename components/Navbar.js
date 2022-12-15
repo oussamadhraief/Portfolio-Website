@@ -4,9 +4,8 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Header(){
+export default function Navbar(){
 
-    const backgroundDesign = 'top_cuzoa3.png'
 
     const [scrolled,setScrolled] = useState(false);
 

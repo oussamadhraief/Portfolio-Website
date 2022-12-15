@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/Navbar'
+import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 import MainSection from '../components/MainSection'
 import AboutMeSection from '../components/AboutMeSection'
 import Resume from '../components/Resume'
@@ -40,8 +41,9 @@ export default function Home(props) {
         <meta name="twitter:description" value="A passionate software developer with great ambitions."/>
         <meta name="twitter:image" value="https://res.cloudinary.com/dwvwjxizk/image/upload/v1641491432/banner_b4lbdc.png"/>
       </Head>
-      <Header />
+      <Navbar />  
       <MainSection />
+      <Header />
       <AboutMeSection />
       <Resume />
       <ContactMeSection />

@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Header from '../components/Header'
-import BackgroundImage from '../components/BackgroundImage'
+import Header from '../components/Navbar'
 import MainSection from '../components/MainSection'
 import AboutMeSection from '../components/AboutMeSection'
 import Resume from '../components/Resume'
 import ContactMeSection from '../components/ContactMeSection'
-import Copyright from '../components/Copyright'
+import Footer from '../components/Footer'
 import {LoadingContext} from '../utils/LoadingContext'
 import { useState } from 'react'
 import LoadingAnimation from '../components/LoadingAnimation'
@@ -43,11 +42,10 @@ export default function Home(props) {
       </Head>
       <Header />
       <MainSection />
-      <BackgroundImage />
       <AboutMeSection />
       <Resume />
       <ContactMeSection />
-      <Copyright />
+      <Footer />
       </LoadingContext.Provider>
     </div>
   )
